@@ -1,0 +1,33 @@
+.card{
+  border:2px solid black;
+  max-width:24vw;
+}
+.container{
+  display: flex;
+  gap:34px;
+  flex-wrap:wrap;
+}
+*{
+  margin:0;
+  padding:0;
+
+}
+nav,ul{
+  display:flex;
+  gap:4px;
+  padding: 12px 3px;
+  background-color: rgb(46,46,44);
+  margin-bottom: 9px;
+  color: white;
+}
+li{
+  list-style:none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;   /* 🔥 centers container */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
